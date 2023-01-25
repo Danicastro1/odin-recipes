@@ -1,21 +1,30 @@
 img {
     height: auto;
-    width: 200px;
-    display: inline-block;
-    justify-content: center;}
-h1 {
-    text-align: center;
+    width: 250px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: orange;}
+    color: orange;
+    margin-bottom: 2px;
+}
+
 body {
-    background-color: bisque;}
+    background-color: bisque;
+}
 li {
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: 500;
 }
-.bullets {
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+
+
