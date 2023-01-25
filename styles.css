@@ -3,13 +3,12 @@ img {
     width: 250px;
 }
 
-.title {
+h1 {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: orange;
-    margin-bottom: 2px;
 }
 
 body {
@@ -18,12 +17,21 @@ body {
 li {
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: 500;
+    text-align: center;
+    list-style: none;
 }
 .containers {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
+}
+
+.title {
+border-radius: 2px;
+background: sienna;
+color: white;
+padding: 2px 2px;
 }
 
 
